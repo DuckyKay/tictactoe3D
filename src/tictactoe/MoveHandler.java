@@ -225,6 +225,7 @@ public class MoveHandler
         };
 
         // If board is empty where player inputs, the move is valid
+        // comment for github
         return switch (position) {
             case "1" -> (board[row][3 * (Integer.valueOf(quadrant) - (3 * row)) - 3] == ' ');
             case "2" -> (board[row][3 * (Integer.valueOf(quadrant) - (3 * row)) - 2] == ' ');
